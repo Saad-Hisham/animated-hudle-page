@@ -292,7 +292,7 @@ i {
     border-radius: 50%;
     margin-left: 1rem;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 1.5  rem;
 }
 i:hover{
     color: #e980e7;
@@ -302,4 +302,24 @@ i:hover{
 .icons {
     display: flex;
     justify-content: end;
+}
+i{
+    display: inline-block;
+}
+@keyframes up-down {
+    1%{
+        top: 0rem;
+    }
+
+    50%{
+        top: -3rem;
+    }
+   
+    100%{
+        top: 0rem;
+    }
+}
+svg#animated-svg{
+    position: relative;
+    animation: up-down 5s ease-in-out  infinite;
 }
