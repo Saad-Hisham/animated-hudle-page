@@ -1,0 +1,305 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #674bb1;
+    background-image: url("./huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    font-size: 54px;
+    letter-spacing: -7px;
+
+}
+
+.logo {
+    max-width: 4rem;
+    overflow: hidden;
+}
+
+.logo-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 16rem;
+}
+
+.page-container {
+    display: flex;
+    min-width: 1267px;
+    justify-content: space-between;
+}
+
+h2 {
+    color: white;
+    max-width: 433px;
+    font-size: 2rem;
+}
+
+p {
+    max-width: 513px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+}
+
+.page-container img {
+    max-width: 696px;
+}
+
+button {
+    background: white;
+    border: none;
+    color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    min-width: 200px;
+    min-height: 56px;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px 4px rgba(84, 59, 142, 0.75);
+    -webkit-box-shadow: 2px 2px 5px 4px rgba(84, 59, 142, 0.75);
+    -moz-box-shadow: 2px 2px 5px 4px rgba(84, 59, 142, 0.75);
+}
+
+.content {
+    margin-top: 17px;
+}
+
+/* @keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes fill-animation {
+    from {
+        scale: 0;
+        opacity: 0;
+    }
+
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+#animated-svg {
+    animation: fill-animation 1s forwards;
+}
+
+@keyframes first-animation {
+    from {
+        opacity: 0;
+        width: 0px;
+    }
+
+    to {
+        opacity: 1;
+        width: 137px;
+    }
+}
+
+@keyframes second-animation {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+rect,
+ellipse {
+    opacity: 0;
+
+}
+
+rect {
+    animation: fill-animation 1s ease-in 0s forwards;
+}
+
+rect#first {
+    opacity: 0;
+    animation: first-animation .5s forwards;
+    animation-delay: 1.8s;
+
+}
+
+rect#second,
+rect#third,
+rect#fourth {
+    animation: second-animation .5s forwards;
+    animation-delay: 1.8s;
+
+
+}
+
+ellipse {
+    animation: second-animation .5s forwards;
+    animation-delay: 2s;
+}
+
+ellipse#second-e {
+    animation: second-animation .5s forwards;
+    animation-delay: 2.2s;
+}
+
+ellipse#third-e {
+    animation: second-animation .5s forwards;
+    animation-delay: 2.4s;
+}
+
+@keyframes a1 {
+    from {
+        opacity: 0;
+        width: 0px;
+    }
+
+    to {
+        opacity: 1;
+        width: 79px;
+    }
+}
+
+rect#\31 {
+    animation: a1 .5s forwards;
+    animation-delay: 2.4s;
+}
+
+@keyframes a2 {
+    from {
+        opacity: 0;
+        width: 0px;
+    }
+
+    to {
+        opacity: 1;
+        width: 274px;
+    }
+}
+
+rect#\32 {
+
+    animation: a2 .8s forwards;
+    animation-delay: 2.6s;
+}
+
+
+
+@keyframes a3 {
+    from {
+        opacity: 0;
+        width: 0px;
+    }
+
+    to {
+        opacity: 1;
+        width: 228px;
+    }
+}
+
+rect#\33 {
+    animation: a3 .8s forwards;
+    animation-delay: 2.7s;
+}
+
+span {
+    display: inline-block;
+} */
+
+a {
+    color: white;
+}
+
+footer {
+
+    width: 100%;
+    margin-top: 5rem;
+}
+
+footer p {
+    margin: auto;
+}
+
+@media (max-width:1275px) {
+    body {
+        background-image: url("./huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg");
+    }
+
+    .page-container {
+        display: flex;
+        min-width: 375px;
+        justify-content: space-between;
+        flex-direction: column;
+        max-width: 375px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+    }
+    svg#animated-svg {
+        width: 100%;
+    }
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+button:hover{
+    background-color: #e980e7;
+    color: white;
+    transition: all ease-in-out .5s;
+
+}
+
+i {
+    color: white;
+    border: 1px solid white;
+    padding: 9px;
+    border-radius: 50%;
+    margin-left: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+i:hover{
+    color: #e980e7;
+    border-color: #e980e7;
+    transition: all ease .5s;
+}
+.icons {
+    display: flex;
+    justify-content: end;
+}
