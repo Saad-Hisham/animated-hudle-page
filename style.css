@@ -245,6 +245,13 @@ footer p {
 }
 
 @media (max-width:1275px) {
+    .content {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
     body {
         background-image: url("./huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg");
     }
